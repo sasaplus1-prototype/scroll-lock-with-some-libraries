@@ -1,0 +1,20 @@
+{
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "build": "babel --out-file ./react-remove-scroll/index.js ./react-remove-scroll/index.jsx",
+    "fixpack": "npx fixpack"
+  },
+  "dependencies": {
+    "react-remove-scroll": "^1.0.5"
+  }
+}
